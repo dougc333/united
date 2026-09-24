@@ -14,4 +14,6 @@ cd /Users/dc/united
 ```
 
 ##Step 2: 
-divide
+divide the pdfs into single pages and use LLM to convert to html. Tell the LLM to take a screenshot using playwright and Chromium and compare the 2 for errors. This is a single call iterative loop. 
+
+
