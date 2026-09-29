@@ -1,0 +1,8 @@
+{"query":"Which billing code identifies bendamustine hydrochloride 1 mg?","relevant_chunk_ids":["c-benda-code"]}
+{"query":"What is the preferred bendamustine product?","relevant_chunk_ids":["c-benda-code"]}
+{"query":"What supports a non-preferred bendamustine exception?","relevant_chunk_ids":["c-benda-exception"]}
+{"query":"Does advanced imaging require prior authorization?","relevant_chunk_ids":["c-imaging-auth"]}
+{"query":"How is emergency imaging handled?","relevant_chunk_ids":["c-imaging-emergency"]}
+{"query":"What supports initial continuous glucose monitor coverage?","relevant_chunk_ids":["c-cgm-initial"]}
+{"query":"What is required for continued CGM coverage?","relevant_chunk_ids":["c-cgm-continued"]}
+

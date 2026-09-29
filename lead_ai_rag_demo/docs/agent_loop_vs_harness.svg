@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="400" viewBox="0 0 940 400" role="img" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+  <title>Agent Loop vs Harness</title>
+  <desc>An agent loop lets the model call tools several times: it asks for an OCR tool call on a PDF image, the tools get text and tables, save HTML, and screenshot the PDF, and the screenshot is compared to the HTML ; if the screenshot differs from the HTML the loop repeats, otherwise it stops, and the loop repeats. A harness wraps that loop: a context manager trims and compacts the context window, and tool calls are streamed to a sandbox that runs them in isolation and streams output back.</desc>
+  <style>
+    .bg { fill: #ffffff; }
+    .teal rect { fill: #E1F5EE; stroke: #0F6E56; }
+    .teal text { fill: #085041; }
+    .coral rect { fill: #FAECE7; stroke: #993C1D; }
+    .coral text { fill: #712B13; }
+    .gray rect { fill: #F1EFE8; stroke: #5F5E5A; }
+    .gray text { fill: #444441; }
+    .purple rect { fill: #EEEDFE; stroke: #534AB7; }
+    .purple text { fill: #3C3489; }
+    .purple .ts2 { font-size: 12px; fill: #534AB7; }
+    .amber rect { fill: #FAEEDA; stroke: #854F0B; }
+    .amber text { fill: #633806; }
+    .blue rect { fill: #E6F1FB; stroke: #185FA5; }
+    .blue text { fill: #0C447C; }
+    .it { font-size: 12px; font-style: italic; }
+    .tq { font-size: 13px; font-weight: 500; }
+    .sn { font-size: 12px; }
+    .mono { font-size: 12px; font-family: ui-monospace, Menlo, monospace; }
+    .arr.red { stroke: #A32D2D; }
+    .ts.redt { fill: #A32D2D; }
+    .rs { font-size: 13px; }
+    .rs.ok { fill: #3B6D11; font-weight: 700; }
+    .rs.bad { fill: #A32D2D; font-weight: 700; }
+    .th { font-size: 14px; font-weight: 500; }
+    .ts { font-size: 12px; fill: #5F5E5A; }
+    .arr, .fig { stroke: #5F5E5A; stroke-width: 1.5; fill: none; }
+    .fig { stroke: #2C2C2A; stroke-linecap: round; }
+    .group { stroke: #888780; stroke-width: 0.75; fill: none; stroke-dasharray: 4 3; }
+    .label { font-size: 24px; font-weight: 700; fill: #2C2C2A; }
+    @media (prefers-color-scheme: dark) {
+      .bg { fill: #1f1e1c; }
+      .teal rect { fill: #085041; stroke: #5DCAA5; }
+      .teal text { fill: #E1F5EE; }
+      .coral rect { fill: #712B13; stroke: #F0997B; }
+      .coral text { fill: #FAECE7; }
+      .gray rect { fill: #444441; stroke: #B4B2A9; }
+      .gray text { fill: #F1EFE8; }
+      .purple rect { fill: #3C3489; stroke: #AFA9EC; }
+      .purple text { fill: #EEEDFE; }
+      .purple .ts2 { fill: #CECBF6; }
+      .amber rect { fill: #633806; stroke: #EF9F27; }
+      .amber text { fill: #FAEEDA; }
+      .blue rect { fill: #0C447C; stroke: #85B7EB; }
+      .blue text { fill: #E6F1FB; }
+      .arr.red { stroke: #F09595; }
+      .ts.redt { fill: #F09595; }
+      .rs.ok { fill: #97C459; }
+      .rs.bad { fill: #F09595; }
+      .ts { fill: #B4B2A9; }
+      .arr { stroke: #B4B2A9; }
+      .fig { stroke: #F1EFE8; }
+      .label { fill: #F1EFE8; }
+    }
+  </style>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M2 1L8 5L2 9" fill="none" stroke="#5F5E5A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+    <marker id="arrow-red" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M2 1L8 5L2 9" fill="none" stroke="#A32D2D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+  <rect class="bg" x="0" y="0" width="940" height="400"/>
+  <text class="label" x="16" y="36">Agent Loop vs Harness</text>
+
+  <!-- Agent loop -->
+  <text class="th" x="235" y="76" text-anchor="middle" dominant-baseline="central">Agent loop</text>
+  <g class="gray"><rect x="30" y="100" width="100" height="56" rx="8" stroke-width="0.5"/><text class="th" x="80" y="119" text-anchor="middle" dominant-baseline="central">Model</text><text class="ts" x="80" y="138" text-anchor="middle" dominant-baseline="central">LLM</text></g>
+  <g class="coral"><rect x="180" y="110" width="100" height="36" rx="8" stroke-width="0.5"/><text class="mono" x="230" y="128" text-anchor="middle" dominant-baseline="central">OCR(image)</text></g>
+  <g class="amber"><rect x="334" y="90" width="120" height="104" rx="8" stroke-width="0.5"/><text class="mono" x="344" y="106" dominant-baseline="central">get_text</text><text class="mono" x="344" y="130" dominant-baseline="central">get_tables</text><text class="mono" x="344" y="154" dominant-baseline="central">save_html</text><text class="mono" x="344" y="178" dominant-baseline="central">screenshot_pdf</text></g>
+  <text class="ts" x="394" y="208" text-anchor="middle" dominant-baseline="central">your tools</text>
+  <path d="M132 128 L176 128" class="arr" marker-end="url(#arrow)"/>
+  <text class="ts" x="155" y="110" text-anchor="middle" dominant-baseline="central">1. asks</text>
+  <path d="M282 128 L330 128" class="arr" marker-end="url(#arrow)"/>
+  <text class="ts" x="307" y="110" text-anchor="middle" dominant-baseline="central">2. run</text>
+  <text class="ts" x="135" y="258" text-anchor="middle" dominant-baseline="central">check</text>
+  <path d="M394 222 L394 284 L234 284" class="arr red" marker-end="url(#arrow-red)"/>
+  <text class="ts redt" x="300" y="262" text-anchor="middle" dominant-baseline="central">3. compare screenshot to html</text>
+  <g class="gray"><rect x="40" y="270" width="190" height="44" rx="8" stroke-width="0.5"/><text class="mono" x="135" y="292" text-anchor="middle" dominant-baseline="central">if screenshot != html</text></g>
+  <path d="M135 316 L135 336" class="arr" marker-end="url(#arrow)"/>
+  <text class="ts" x="143" y="326" dominant-baseline="central">else</text>
+  <g class="teal"><rect x="95" y="340" width="80" height="28" rx="8" stroke-width="0.5"/><text class="th" x="135" y="354" text-anchor="middle" dominant-baseline="central">stop</text></g>
+  <path d="M100 268 L100 160" class="arr" marker-end="url(#arrow)"/>
+  <text class="ts" x="92" y="214" text-anchor="end" dominant-baseline="central">4. loop</text>
+
+  <!-- Harness -->
+  <text class="th" x="702" y="76" text-anchor="middle" dominant-baseline="central">Harness</text>
+  <rect class="group" x="480" y="90" width="444" height="260" rx="12"/>
+  <g class="gray"><rect x="622" y="106" width="160" height="56" rx="8" stroke-width="0.5"/><text class="th" x="702" y="125" text-anchor="middle" dominant-baseline="central">Agent loop</text><text class="ts" x="702" y="144" text-anchor="middle" dominant-baseline="central">model ↔ tools</text></g>
+  <g class="purple"><rect x="492" y="206" width="196" height="80" rx="8" stroke-width="0.5"/><text class="th" x="590" y="226" text-anchor="middle" dominant-baseline="central">Context manager</text><text class="ts" x="590" y="246" text-anchor="middle" dominant-baseline="central">window budget</text></g>
+  <text class="rs ok" x="590" y="268" text-anchor="middle" dominant-baseline="central">single page pdf = correct</text>
+  <g class="teal"><rect x="716" y="206" width="196" height="80" rx="8" stroke-width="0.5"/><text class="th" x="814" y="226" text-anchor="middle" dominant-baseline="central">Sandbox</text><text class="ts" x="814" y="246" text-anchor="middle" dominant-baseline="central">isolated tool runs</text></g>
+  <text class="rs bad" x="814" y="268" text-anchor="middle" dominant-baseline="central">full.pdf = errors</text>
+  <path d="M662 164 L662 184 L590 184 L590 202" class="arr" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+  <path d="M742 164 L742 184 L814 184 L814 202" class="arr" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+  <text class="ts" x="606" y="174" text-anchor="middle" dominant-baseline="central">trim / compact</text>
+  <text class="ts" x="800" y="174" text-anchor="middle" dominant-baseline="central">streaming</text>
+  <text class="ts" x="702" y="320" text-anchor="middle" dominant-baseline="central">keeps a long-running loop healthy across many turns</text>
+</svg>
