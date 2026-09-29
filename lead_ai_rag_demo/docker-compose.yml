@@ -1,0 +1,18 @@
+services:
+  api:
+    build: .
+    ports: ["8000:8000"]
+    env_file: [.env]
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/healthz')"]
+      interval: 10s
+      timeout: 3s
+      retries: 5
+  ui:
+    build: .
+    command: ["streamlit", "run", "streamlit_app.py", "--server.address=0.0.0.0"]
+    volumes:
+      - ./streamlit_app.py:/app/streamlit_app.py:ro
+    ports: ["8501:8501"]
+    env_file: [.env]
+

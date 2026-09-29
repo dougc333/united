@@ -1,0 +1,8 @@
+streamlit
+pymupdf
+langchain-core
+langchain-text-splitters
+transformers
+matplotlib
+sentence-transformers
+openai
