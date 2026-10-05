@@ -1,0 +1,23 @@
+[project]
+name = "united-lead-ai-rag-demo"
+version = "0.1.0"
+description = "Production-shaped healthcare policy RAG demo with LangGraph and Bedrock boundaries"
+requires-python = ">=3.11"
+dependencies = [
+  "boto3>=1.40",
+  "fastapi>=0.115",
+  "langgraph>=1.0",
+  "pydantic>=2.10",
+  "streamlit>=1.40",
+  "uvicorn[standard]>=0.34",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.3", "httpx>=0.28", "ruff>=0.9"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+

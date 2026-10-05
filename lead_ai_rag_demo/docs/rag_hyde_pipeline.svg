@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="440" viewBox="0 0 940 440" role="img" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+  <title>HyDE pipeline</title>
+  <desc>Each query is paired with an instruction and sent to an LLM, which writes a hypothetical document. An encoder such as Contriever embeds the hypothetical documents, and their embeddings retrieve similar real documents from the corpus.</desc>
+  <style>
+    .bg { fill: #ffffff; }
+    .teal rect { fill: #E1F5EE; stroke: #0F6E56; }
+    .teal text { fill: #085041; }
+    .coral rect { fill: #FAECE7; stroke: #993C1D; }
+    .coral text { fill: #712B13; }
+    .gray rect { fill: #F1EFE8; stroke: #5F5E5A; }
+    .gray text { fill: #444441; }
+    .purple rect { fill: #EEEDFE; stroke: #534AB7; }
+    .purple text { fill: #3C3489; }
+    .purple .ts2 { font-size: 12px; fill: #534AB7; }
+    .amber rect { fill: #FAEEDA; stroke: #854F0B; }
+    .amber text { fill: #633806; }
+    .blue rect { fill: #E6F1FB; stroke: #185FA5; }
+    .blue text { fill: #0C447C; }
+    .it { font-size: 12px; font-style: italic; }
+    .tq { font-size: 13px; font-weight: 500; }
+    .sn { font-size: 12px; }
+    .th { font-size: 14px; font-weight: 500; }
+    .ts { font-size: 12px; fill: #5F5E5A; }
+    .arr, .fig { stroke: #5F5E5A; stroke-width: 1.5; fill: none; }
+    .fig { stroke: #2C2C2A; stroke-linecap: round; }
+    .group { stroke: #888780; stroke-width: 0.75; fill: none; stroke-dasharray: 4 3; }
+    .label { font-size: 24px; font-weight: 700; fill: #2C2C2A; }
+    @media (prefers-color-scheme: dark) {
+      .bg { fill: #1f1e1c; }
+      .teal rect { fill: #085041; stroke: #5DCAA5; }
+      .teal text { fill: #E1F5EE; }
+      .coral rect { fill: #712B13; stroke: #F0997B; }
+      .coral text { fill: #FAECE7; }
+      .gray rect { fill: #444441; stroke: #B4B2A9; }
+      .gray text { fill: #F1EFE8; }
+      .purple rect { fill: #3C3489; stroke: #AFA9EC; }
+      .purple text { fill: #EEEDFE; }
+      .purple .ts2 { fill: #CECBF6; }
+      .amber rect { fill: #633806; stroke: #EF9F27; }
+      .amber text { fill: #FAEEDA; }
+      .blue rect { fill: #0C447C; stroke: #85B7EB; }
+      .blue text { fill: #E6F1FB; }
+      .ts { fill: #B4B2A9; }
+      .arr { stroke: #B4B2A9; }
+      .fig { stroke: #F1EFE8; }
+      .label { fill: #F1EFE8; }
+    }
+  </style>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M2 1L8 5L2 9" fill="none" stroke="#5F5E5A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+  <rect class="bg" x="0" y="0" width="940" height="440"/>
+
+  <!-- Instruction + query inputs -->
+  <g class="amber"><rect x="16" y="40" width="220" height="24" rx="6" stroke-width="0.5"/><text class="it" x="26" y="52" text-anchor="start" dominant-baseline="central">Write a passage to answer</text></g>
+  <g class="teal"><rect x="16" y="64" width="220" height="40" rx="6" stroke-width="0.5"/><text class="tq" x="26" y="84" text-anchor="start" dominant-baseline="central">Is Treanda a preferred drug?</text></g>
+  <g class="amber"><rect x="16" y="150" width="220" height="24" rx="6" stroke-width="0.5"/><text class="it" x="26" y="162" text-anchor="start" dominant-baseline="central">Write a policy excerpt to answer</text></g>
+  <g class="teal"><rect x="16" y="174" width="220" height="40" rx="6" stroke-width="0.5"/><text class="tq" x="26" y="194" text-anchor="start" dominant-baseline="central">Does Bendeka need prior auth?</text></g>
+  <g class="amber"><rect x="16" y="260" width="220" height="24" rx="6" stroke-width="0.5"/><text class="it" x="26" y="272" text-anchor="start" dominant-baseline="central">Write a clinical note to answer</text></g>
+  <g class="teal"><rect x="16" y="284" width="220" height="40" rx="6" stroke-width="0.5"/><text class="tq" x="26" y="304" text-anchor="start" dominant-baseline="central">Max dose of bendamustine?</text></g>
+
+  <!-- HyDE -->
+  <rect class="group" x="290" y="40" width="352" height="310" rx="10"/>
+  <text class="label" x="304" y="68" style="font-size:20px">HyDE</text>
+  <g class="gray"><rect x="314" y="170" width="86" height="80" rx="8" stroke-width="0.5"/><text class="th" x="357" y="210" text-anchor="middle" dominant-baseline="central">LLM</text></g>
+  <path d="M238 104 C 275 104, 275 190, 310 190" class="arr" marker-end="url(#arrow)"/>
+  <path d="M238 214 C 275 214, 275 200, 310 200" class="arr" marker-end="url(#arrow)"/>
+  <path d="M238 324 C 275 324, 275 210, 310 210" class="arr" marker-end="url(#arrow)"/>
+  <g class="coral"><rect x="440" y="72" width="186" height="52" rx="6" stroke-width="0.5"/><text class="sn" x="450" y="89" text-anchor="start" dominant-baseline="central">Treanda (bendamustine) is</text><text class="sn" x="450" y="107" text-anchor="start" dominant-baseline="central">listed as a preferred ...</text></g>
+  <path d="M402 200 L436 98" class="arr" marker-end="url(#arrow)"/>
+  <g class="coral"><rect x="440" y="184" width="186" height="52" rx="6" stroke-width="0.5"/><text class="sn" x="450" y="201" text-anchor="start" dominant-baseline="central">Prior authorization is</text><text class="sn" x="450" y="219" text-anchor="start" dominant-baseline="central">required for Bendeka ...</text></g>
+  <path d="M402 210 L436 210" class="arr" marker-end="url(#arrow)"/>
+  <g class="coral"><rect x="440" y="296" width="186" height="52" rx="6" stroke-width="0.5"/><text class="sn" x="450" y="313" text-anchor="start" dominant-baseline="central">The usual dose is 90–120</text><text class="sn" x="450" y="331" text-anchor="start" dominant-baseline="central">mg/m² on days 1 and 2 ...</text></g>
+  <path d="M402 220 L436 322" class="arr" marker-end="url(#arrow)"/>
+  <g class="purple"><rect x="666" y="182" width="104" height="56" rx="8" stroke-width="0.5"/><text class="th" x="718" y="201" text-anchor="middle" dominant-baseline="central">Encoder</text><text class="ts2" x="718" y="220" text-anchor="middle" dominant-baseline="central">Contriever</text></g>
+  <path d="M628 98 L662 190" class="arr" marker-end="url(#arrow)"/>
+  <path d="M628 210 L662 200" class="arr" marker-end="url(#arrow)"/>
+  <path d="M628 322 L662 210" class="arr" marker-end="url(#arrow)"/>
+  <g class="blue"><rect x="796" y="72" width="136" height="52" rx="6" stroke-width="0.5"/><text class="sn" x="806" y="89" text-anchor="start" dominant-baseline="central">bendamustine.pdf</text><text class="sn" x="806" y="107" text-anchor="start" dominant-baseline="central">p.1 · preference table</text></g>
+  <path d="M772 190 C 784 190, 780 98, 792 98" class="arr" marker-end="url(#arrow)"/>
+  <g class="blue"><rect x="796" y="184" width="136" height="52" rx="6" stroke-width="0.5"/><text class="sn" x="806" y="201" text-anchor="start" dominant-baseline="central">bendamustine.pdf</text><text class="sn" x="806" y="219" text-anchor="start" dominant-baseline="central">p.2 · prior auth</text></g>
+  <path d="M772 200 C 784 200, 780 210, 792 210" class="arr" marker-end="url(#arrow)"/>
+  <g class="blue"><rect x="796" y="296" width="136" height="52" rx="6" stroke-width="0.5"/><text class="sn" x="806" y="313" text-anchor="start" dominant-baseline="central">bendamustine.pdf</text><text class="sn" x="806" y="331" text-anchor="start" dominant-baseline="central">p.3 · dosing</text></g>
+  <path d="M772 210 C 784 210, 780 322, 792 322" class="arr" marker-end="url(#arrow)"/>
+
+  <!-- Legend -->
+  <g class="amber"><rect x="300" y="372" width="28" height="16" rx="4" stroke-width="0.5"/></g><text class="ts" x="336" y="380" dominant-baseline="central">instruction</text>
+  <g class="teal"><rect x="441" y="372" width="28" height="16" rx="4" stroke-width="0.5"/></g><text class="ts" x="477" y="380" dominant-baseline="central">query</text>
+  <g class="coral"><rect x="540" y="372" width="28" height="16" rx="4" stroke-width="0.5"/></g><text class="ts" x="576" y="380" dominant-baseline="central">generated document</text>
+  <g class="blue"><rect x="730" y="372" width="28" height="16" rx="4" stroke-width="0.5"/></g><text class="ts" x="766" y="380" dominant-baseline="central">real document</text>
+
+  <text class="label" x="16" y="424">HyDE pipeline</text>
+</svg>

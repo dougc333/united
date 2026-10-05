@@ -1,0 +1,32 @@
+{
+  "profiled_files": 1,
+  "failed_files": 0,
+  "partial_files": 0,
+  "status_counts": {
+    "success": 1
+  },
+  "totals": {
+    "num_pages": 1,
+    "num_tables": 0,
+    "num_pictures": 7,
+    "num_texts": 44,
+    "num_section_headers": 7,
+    "num_list_items": 28,
+    "num_code_items": 0,
+    "num_formulas": 0,
+    "num_pictures_for_ocr": 0
+  },
+  "pages": {
+    "min": 1,
+    "median": 1,
+    "mean": 1,
+    "max": 1
+  },
+  "tables": {
+    "min": 0,
+    "median": 0,
+    "mean": 0,
+    "max": 0
+  },
+  "ocr_note": "num_pictures_for_ocr counts detected pictures covering >=5% of a page; it does not verify OCR need or accuracy."
+}

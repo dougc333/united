@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="350" viewBox="0 0 680 350" role="img" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+  <title>RAG reranking module</title>
+  <desc>Top-k chunks from the vector DB and the user query go into a reranking model, which keeps a smaller set of the most relevant chunks as the reranked chunks.</desc>
+  <style>
+    .bg { fill: #ffffff; }
+    .teal rect { fill: #E1F5EE; stroke: #0F6E56; }
+    .teal text { fill: #085041; }
+    .coral rect { fill: #FAECE7; stroke: #993C1D; }
+    .coral text { fill: #712B13; }
+    .gray rect { fill: #F1EFE8; stroke: #5F5E5A; }
+    .gray text { fill: #444441; }
+    .th { font-size: 14px; font-weight: 500; }
+    .ts { font-size: 12px; fill: #5F5E5A; }
+    .arr { stroke: #5F5E5A; stroke-width: 1.5; fill: none; }
+    .group { stroke: #888780; stroke-width: 0.75; fill: none; stroke-dasharray: 4 3; }
+    .label { font-size: 24px; font-weight: 700; fill: #2C2C2A; }
+    @media (prefers-color-scheme: dark) {
+      .bg { fill: #1f1e1c; }
+      .teal rect { fill: #085041; stroke: #5DCAA5; }
+      .teal text { fill: #E1F5EE; }
+      .coral rect { fill: #712B13; stroke: #F0997B; }
+      .coral text { fill: #FAECE7; }
+      .gray rect { fill: #444441; stroke: #B4B2A9; }
+      .gray text { fill: #F1EFE8; }
+      .ts { fill: #B4B2A9; }
+      .arr { stroke: #B4B2A9; }
+      .label { fill: #F1EFE8; }
+    }
+  </style>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M2 1L8 5L2 9" fill="none" stroke="#5F5E5A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+  <rect class="bg" x="0" y="0" width="680" height="350"/>
+
+  <!-- Retrieved chunks (top-k from vector DB); coral = kept after reranking -->
+  <g class="teal"><rect x="40" y="60" width="100" height="36" rx="8" stroke-width="0.5"/><text class="th" x="90" y="78" text-anchor="middle" dominant-baseline="central">Chunk-1</text></g>
+  <g class="coral"><rect x="40" y="110" width="100" height="36" rx="8" stroke-width="1"/><text class="th" x="90" y="128" text-anchor="middle" dominant-baseline="central">Chunk-2</text></g>
+  <g class="teal"><rect x="40" y="160" width="100" height="36" rx="8" stroke-width="0.5"/><text class="th" x="90" y="178" text-anchor="middle" dominant-baseline="central">Chunk-3</text></g>
+  <g class="coral"><rect x="40" y="210" width="100" height="36" rx="8" stroke-width="1"/><text class="th" x="90" y="228" text-anchor="middle" dominant-baseline="central">Chunk-4</text></g>
+  <text class="ts" x="90" y="266" text-anchor="middle" dominant-baseline="central">relevant chunks (top-k)</text>
+
+  <!-- Reranking model -->
+  <g class="gray"><rect x="200" y="125" width="150" height="56" rx="8" stroke-width="0.5"/><text class="th" x="275" y="153" text-anchor="middle" dominant-baseline="central">Reranking model</text></g>
+  <line x1="142" y1="78" x2="196" y2="135" class="arr" marker-end="url(#arrow)"/>
+  <line x1="142" y1="128" x2="196" y2="147" class="arr" marker-end="url(#arrow)"/>
+  <line x1="142" y1="178" x2="196" y2="159" class="arr" marker-end="url(#arrow)"/>
+  <line x1="142" y1="228" x2="196" y2="171" class="arr" marker-end="url(#arrow)"/>
+
+  <!-- Query -->
+  <g class="coral"><rect x="225" y="250" width="100" height="40" rx="8" stroke-width="0.5"/><text class="th" x="275" y="270" text-anchor="middle" dominant-baseline="central">Query</text></g>
+  <line x1="275" y1="248" x2="275" y2="185" class="arr" marker-end="url(#arrow)"/>
+
+  <!-- Smaller set kept -->
+  <rect class="group" x="390" y="100" width="120" height="106" rx="10"/>
+  <g class="coral"><rect x="400" y="110" width="100" height="36" rx="8" stroke-width="1"/><text class="th" x="450" y="128" text-anchor="middle" dominant-baseline="central">Chunk-2</text></g>
+  <g class="coral"><rect x="400" y="160" width="100" height="36" rx="8" stroke-width="1"/><text class="th" x="450" y="178" text-anchor="middle" dominant-baseline="central">Chunk-4</text></g>
+  <text class="ts" x="450" y="222" text-anchor="middle" dominant-baseline="central">top-n kept</text>
+  <line x1="352" y1="153" x2="386" y2="153" class="arr" marker-end="url(#arrow)"/>
+
+  <!-- Reranked chunks -->
+  <g class="teal"><rect x="540" y="125" width="110" height="56" rx="8" stroke-width="0.5"/><text class="th" x="595" y="144" text-anchor="middle" dominant-baseline="central">Reranked</text><text class="th" x="595" y="162" text-anchor="middle" dominant-baseline="central">chunks</text></g>
+  <line x1="512" y1="153" x2="536" y2="153" class="arr" marker-end="url(#arrow)"/>
+
+  <text class="label" x="16" y="330">Reranking</text>
+</svg>
