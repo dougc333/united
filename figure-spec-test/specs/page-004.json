@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "document_id": "ey-limra-workforce-benefits-study-final-2025",
+  "page": 4,
+  "author": "claude-test-from-crop",
+  "figures": [
+    {
+      "id": "page-004-region-bcb07a18",
+      "label": "Figure 1",
+      "title": "Companies plan to offer more benefits in five years.",
+      "question": "In five years, do you think your company will be offering fewer, the same or more benefits than it does now?",
+      "box_pt": [
+        1.57,
+        367.82,
+        348.94,
+        721.65
+      ],
+      "chart": {
+        "type": "vbar",
+        "mode": "stacked_100",
+        "category_heading": "Company size",
+        "series": [
+          {
+            "name": "Fewer benefits",
+            "color": "#C4C4CD"
+          },
+          {
+            "name": "About the same",
+            "color": "#747480"
+          },
+          {
+            "name": "More benefits",
+            "color": "#FFE600"
+          }
+        ],
+        "categories": [
+          {
+            "label": "Small (10–99 employees)",
+            "values": [
+              3,
+              40,
+              57
+            ]
+          },
+          {
+            "label": "Midsize (100–999 employees)",
+            "values": [
+              1,
+              35,
+              64
+            ]
+          },
+          {
+            "label": "Large (1,000 or more employees)",
+            "values": [
+              3,
+              30,
+              67
+            ]
+          }
+        ],
+        "annotations": [
+          {
+            "type": "callout",
+            "category": "Small (10–99 employees)",
+            "text": "+7% change from 2023",
+            "meaning": "More benefits"
+          },
+          {
+            "type": "callout",
+            "category": "Midsize (100–999 employees)",
+            "text": "+6% change from 2023",
+            "meaning": "More benefits"
+          },
+          {
+            "type": "callout",
+            "category": "Large (1,000 or more employees)",
+            "text": "+5% change from 2023",
+            "meaning": "More benefits"
+          }
+        ]
+      }
+    }
+  ]
+}

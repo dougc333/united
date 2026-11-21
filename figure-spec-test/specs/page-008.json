@@ -1,0 +1,230 @@
+{
+  "schema_version": 1,
+  "document_id": "ey-limra-workforce-benefits-study-final-2025",
+  "page": 8,
+  "author": "claude-blind-test",
+  "figures": [
+    {
+      "id": "page-008-region-49ff1630",
+      "label": "Figure 4",
+      "title": "Employers see a need for total wellbeing.",
+      "question": "Five years from now, how interested do you think your employees will be in the following types of benefits?",
+      "box_pt": [
+        3.75,
+        2.13,
+        611.13,
+        516.83
+      ],
+      "chart": {
+        "type": "hbar",
+        "mode": "single",
+        "axis_max": 100,
+        "category_heading": "Benefit",
+        "series": [
+          {
+            "name": "Percent of employers",
+            "color": "#C4C4CD",
+            "printed": false
+          }
+        ],
+        "categories": [
+          {
+            "label": "Medical insurance",
+            "values": [
+              89
+            ],
+            "color": "#2CB756"
+          },
+          {
+            "label": "Dental insurance",
+            "values": [
+              79
+            ],
+            "color": "#2CB756"
+          },
+          {
+            "label": "Vision insurance",
+            "values": [
+              74
+            ],
+            "color": "#2CB756"
+          },
+          {
+            "label": "Paid family or medical leave",
+            "values": [
+              71
+            ],
+            "color": "#C4C4CD"
+          },
+          {
+            "label": "Life insurance",
+            "values": [
+              67
+            ],
+            "color": "#C4C4CD"
+          },
+          {
+            "label": "Short-term disability insurance",
+            "values": [
+              63
+            ],
+            "color": "#C4C4CD"
+          },
+          {
+            "label": "Mental health/substance abuse treatment benefits",
+            "values": [
+              60
+            ],
+            "color": "#2CB756"
+          },
+          {
+            "label": "Career development",
+            "values": [
+              59
+            ],
+            "color": "#C4C4CD"
+          },
+          {
+            "label": "Physical health wellness programs",
+            "values": [
+              58
+            ],
+            "color": "#C4C4CD"
+          },
+          {
+            "label": "Long-term disability insurance",
+            "values": [
+              58
+            ],
+            "color": "#C4C4CD"
+          },
+          {
+            "label": "Accident insurance",
+            "values": [
+              58
+            ],
+            "color": "#C4C4CD"
+          },
+          {
+            "label": "Telemedicine benefits",
+            "values": [
+              57
+            ],
+            "color": "#C4C4CD"
+          },
+          {
+            "label": "Long-term care insurance",
+            "values": [
+              54
+            ],
+            "color": "#FF4136"
+          },
+          {
+            "label": "Critical illness insurance",
+            "values": [
+              54
+            ],
+            "color": "#C4C4CD"
+          },
+          {
+            "label": "Employee assistance programs",
+            "values": [
+              54
+            ],
+            "color": "#C4C4CD"
+          },
+          {
+            "label": "Financial wellness programs",
+            "values": [
+              54
+            ],
+            "color": "#FF4136"
+          },
+          {
+            "label": "Emergency savings benefit",
+            "values": [
+              52
+            ],
+            "color": "#C4C4CD"
+          },
+          {
+            "label": "Hospital indemnity insurance",
+            "values": [
+              45
+            ],
+            "color": "#FF4136"
+          },
+          {
+            "label": "Caregiving benefits",
+            "values": [
+              45
+            ],
+            "color": "#FF4136"
+          },
+          {
+            "label": "Identity theft protection",
+            "values": [
+              44
+            ],
+            "color": "#FF4136"
+          },
+          {
+            "label": "Tuition assistance",
+            "values": [
+              40
+            ],
+            "color": "#FF4136"
+          },
+          {
+            "label": "Debt management counseling",
+            "values": [
+              38
+            ],
+            "color": "#FF4136"
+          },
+          {
+            "label": "Student loan assistance/repayment",
+            "values": [
+              36
+            ],
+            "color": "#FF4136"
+          },
+          {
+            "label": "Legal services plan",
+            "values": [
+              35
+            ],
+            "color": "#FF4136"
+          },
+          {
+            "label": "Societal benefits",
+            "values": [
+              34
+            ],
+            "color": "#FF4136"
+          },
+          {
+            "label": "Pet insurance",
+            "values": [
+              22
+            ],
+            "color": "#FF4136"
+          }
+        ],
+        "legend": [
+          {
+            "name": "Up 5 percentage points or more vs. 2023 study",
+            "color": "#2CB756"
+          },
+          {
+            "name": "Down 5 percentage points or more vs. 2023 study",
+            "color": "#FF4136"
+          }
+        ]
+      },
+      "notes": [
+        "Note: Percent of employers that believe their company’s employees will be “very” or “extremely” interested in the benefit in the future."
+      ]
+    }
+  ]
+}

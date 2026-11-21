@@ -1,0 +1,155 @@
+{
+  "schema_version": 1,
+  "document_id": "ey-limra-workforce-benefits-study-final-2025",
+  "page": 22,
+  "author": "claude-blind-test",
+  "figures": [
+    {
+      "id": "page-022-region-9c749865",
+      "label": "Figure 16",
+      "title": "Third-party vendors are best positioned to provide benefits technology.",
+      "question": "Which of the following do you feel is best positioned to provide the most important benefits technology for your company’s insurance benefits program?",
+      "box_pt": [
+        16.42,
+        490.25,
+        605.14,
+        755.63
+      ],
+      "chart": {
+        "type": "vbar",
+        "mode": "stacked_100",
+        "category_heading": "Company size",
+        "legend_reversed": true,
+        "series": [
+          {
+            "name": "Third-party vendor",
+            "color": "#FFE600"
+          },
+          {
+            "name": "Insurance carrier(s)",
+            "color": "#747480"
+          },
+          {
+            "name": "Broker/benefits advisor",
+            "color": "#2E2E38"
+          },
+          {
+            "name": "Platform built-house",
+            "color": "#C4C4CD"
+          }
+        ],
+        "categories": [
+          {
+            "label": "Small (10–99 employees)",
+            "values": [
+              41,
+              31,
+              24,
+              4
+            ]
+          },
+          {
+            "label": "Midsize (100–999 employees)",
+            "values": [
+              42,
+              27,
+              21,
+              10
+            ]
+          },
+          {
+            "label": "Large (1,000 or more employees)",
+            "values": [
+              36,
+              32,
+              25,
+              7
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "page-022-region-b57395e2",
+      "label": "Figure 15",
+      "title": "Employees want claims and enrollment processes to be further digitized.",
+      "question": "How important is it to have the following digital/online capabilities available to you?",
+      "box_pt": [
+        11.26,
+        109.53,
+        606.81,
+        477.47
+      ],
+      "chart": {
+        "type": "hbar",
+        "mode": "grouped",
+        "axis_max": 75,
+        "category_heading": "Digital/online capability",
+        "series": [
+          {
+            "name": "2023",
+            "color": "#FFE600"
+          },
+          {
+            "name": "2025",
+            "color": "#747480"
+          }
+        ],
+        "categories": [
+          {
+            "label": "Ability to submit claims online",
+            "values": [
+              57,
+              65
+            ]
+          },
+          {
+            "label": "Ability to enroll in benefits online",
+            "values": [
+              59,
+              65
+            ]
+          },
+          {
+            "label": "A mobile app to access benefits information",
+            "values": [
+              44,
+              50
+            ]
+          },
+          {
+            "label": "Ability to receive digital/online communications on additional benefits available to me",
+            "values": [
+              43,
+              45
+            ]
+          },
+          {
+            "label": "Ability to receive text message notifications and status alerts regarding my benefits (claims status, etc.)",
+            "values": [
+              39,
+              45
+            ]
+          },
+          {
+            "label": "Interactive tool to recommend which benefits are right for me",
+            "values": [
+              41,
+              45
+            ]
+          },
+          {
+            "label": "Live chat/chatbot to answer questions",
+            "values": [
+              33,
+              32
+            ]
+          }
+        ]
+      },
+      "notes": [
+        "Note: Data represents the percentage of respondents reporting importance as “very much.”"
+      ]
+    }
+  ]
+}

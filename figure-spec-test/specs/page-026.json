@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "document_id": "ey-limra-workforce-benefits-study-final-2025",
+  "page": 26,
+  "author": "claude-blind-test",
+  "figures": [
+    {
+      "id": "page-026-region-efa56d30",
+      "label": null,
+      "title": "The many potential uses of AI in workforce benefits",
+      "question": "",
+      "box_pt": [
+        31.31,
+        16.67,
+        599.99,
+        494.74
+      ],
+      "chart": {
+        "type": "steps",
+        "items": [
+          {
+            "number": "01",
+            "label": "Product",
+            "bullets": [
+              "Offerings designed/priced for micro-segments of the workforce",
+              "Ability to quickly create and test next-generation product offerings"
+            ]
+          },
+          {
+            "number": "02",
+            "label": "Distribution",
+            "bullets": [
+              "Ability to leverage data-driven bundling capabilities, materially improving relevancy for employers",
+              "Tools for employers to design purpose-built benefits programs",
+              "Proactive and automated quoting in smaller segments"
+            ]
+          },
+          {
+            "number": "03",
+            "label": "Education",
+            "bullets": [
+              "Immersive experiences focused on demystifying benefits offerings",
+              "Deeper insight into the unique value created across the full Wheel of Wellness"
+            ]
+          },
+          {
+            "number": "04",
+            "label": "Decision support",
+            "bullets": [
+              "Tools designed to help workers build custom, generationally relevant benefits packages for their unique needs",
+              "Answers the question: “What do people like me need?”"
+            ]
+          },
+          {
+            "number": "05",
+            "label": "Service",
+            "bullets": [
+              "AI-enabled digital agents that provide instant simple answers to complex questions",
+              "Real-time adjudication for 90%+ of claims"
+            ]
+          }
+        ]
+      },
+      "description": "AI can enhance multiple aspects of the benefits lifecycle:",
+      "acknowledged_text_differences": [
+        {
+          "text": "AI-enabled digital agents that provide instant simple answers to complex questions",
+          "reason": "text layer prints the capital I of AI as lowercase l (Al-enabled)"
+        }
+      ]
+    }
+  ]
+}

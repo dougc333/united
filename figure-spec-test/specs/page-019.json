@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "document_id": "ey-limra-workforce-benefits-study-final-2025",
+  "page": 19,
+  "author": "claude-blind-test",
+  "figures": [
+    {
+      "id": "page-019-region-409f6188",
+      "label": "Figure 12",
+      "title": "Plans to outsource span the full spectrum of absence offerings.",
+      "question": "Does your company currently outsource some or all of the administration for any of the following leaves?",
+      "box_pt": [
+        8.8,
+        408.7,
+        563.5,
+        765.0
+      ],
+      "chart": {
+        "type": "hbar",
+        "mode": "stacked_100",
+        "category_heading": "Leave type",
+        "series": [
+          {
+            "name": "Currently outsource (in full or part)",
+            "color": "#747480"
+          },
+          {
+            "name": "Do not outsource, but plan to outsource in the next 3-5 years",
+            "color": "#FFE600"
+          },
+          {
+            "name": "No plans to outsource",
+            "color": "#C4C4CD"
+          }
+        ],
+        "categories": [
+          {
+            "label": "Divorce or family upheaval leave",
+            "values": [
+              51,
+              25,
+              24
+            ]
+          },
+          {
+            "label": "Long-term disability",
+            "values": [
+              51,
+              23,
+              26
+            ]
+          },
+          {
+            "label": "Short-term disability",
+            "values": [
+              50,
+              21,
+              29
+            ]
+          },
+          {
+            "label": "Paid caregiving leave (company-sponsored)",
+            "values": [
+              42,
+              28,
+              30
+            ]
+          },
+          {
+            "label": "Emergency responder leave",
+            "values": [
+              34,
+              35,
+              31
+            ]
+          },
+          {
+            "label": "Domestic violence/sexual abuse victims’ leave",
+            "values": [
+              38,
+              28,
+              34
+            ]
+          },
+          {
+            "label": "FMLA",
+            "values": [
+              48,
+              16,
+              36
+            ]
+          },
+          {
+            "label": "Sabbaticals",
+            "values": [
+              37,
+              27,
+              36
+            ]
+          },
+          {
+            "label": "Non-FMLA medical leave",
+            "values": [
+              37,
+              27,
+              36
+            ]
+          },
+          {
+            "label": "Paid family or medical leave (company-sponsored)",
+            "values": [
+              36,
+              26,
+              38
+            ]
+          },
+          {
+            "label": "Paid parental, maternity or paternity leave (company-sponsored)",
+            "values": [
+              39,
+              20,
+              41
+            ]
+          },
+          {
+            "label": "Military service/family military leave",
+            "values": [
+              32,
+              23,
+              45
+            ]
+          },
+          {
+            "label": "Other mandated leaves",
+            "values": [
+              30,
+              23,
+              47
+            ]
+          },
+          {
+            "label": "Other company-sponsored leaves",
+            "values": [
+              25,
+              23,
+              52
+            ]
+          }
+        ]
+      },
+      "notes": [
+        "Base: Employers offering each respective leave."
+      ]
+    }
+  ]
+}

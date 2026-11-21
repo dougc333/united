@@ -1,0 +1,178 @@
+{
+  "schema_version": 1,
+  "document_id": "ey-limra-workforce-benefits-study-final-2025",
+  "page": 14,
+  "author": "claude-blind-test",
+  "figures": [
+    {
+      "id": "page-014-region-19bb63f1",
+      "label": "Figure 8",
+      "title": "Employers choose brokers based on quality service, enhanced strategies and access to benefits.",
+      "question": "What are the most important factors your company considers when choosing a broker/benefits advisor to work with for insurance benefits?",
+      "box_pt": [
+        14.21,
+        53.25,
+        602.62,
+        361.02
+      ],
+      "chart": {
+        "type": "hbar",
+        "mode": "single",
+        "axis_max": 50,
+        "category_heading": "Factor",
+        "series": [
+          {
+            "name": "Percent of employers",
+            "color": "#FFE600",
+            "printed": false
+          }
+        ],
+        "categories": [
+          {
+            "label": "Quality of service",
+            "values": [
+              45
+            ]
+          },
+          {
+            "label": "Can provide all the insurance benefits my company needs",
+            "values": [
+              39
+            ]
+          },
+          {
+            "label": "Helps our company evaluate/enhance its benefits strategy",
+            "values": [
+              35
+            ]
+          },
+          {
+            "label": "Reputation or experience",
+            "values": [
+              31
+            ]
+          },
+          {
+            "label": "Helps communicate benefits options to employees/provides education",
+            "values": [
+              30
+            ]
+          },
+          {
+            "label": "Range of products/services supported",
+            "values": [
+              27
+            ]
+          },
+          {
+            "label": "Provides recommendations and guidance on benefits technology",
+            "values": [
+              22
+            ]
+          },
+          {
+            "label": "Helps our company understand/address legal and regulatory issues",
+            "values": [
+              20
+            ]
+          },
+          {
+            "label": "Familiarity with our company",
+            "values": [
+              15
+            ]
+          },
+          {
+            "label": "Carriers represented",
+            "values": [
+              14
+            ]
+          },
+          {
+            "label": "Has access to a team of specialists to address more complex needs",
+            "values": [
+              12
+            ]
+          },
+          {
+            "label": "Able to provide benefits technology",
+            "values": [
+              8
+            ]
+          },
+          {
+            "label": "Other",
+            "values": [
+              1
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "page-014-region-a2480c00",
+      "label": "Figure 9",
+      "title": "Employer opinions are mixed about primary responsibility for education and awareness that employees need to make confident enrollment decisions.",
+      "question": "Who do you think should be primarily accountable for providing the education and awareness needed for employees to make confident enrollment decisions?",
+      "box_pt": [
+        9.8,
+        451.3,
+        599.0,
+        742.0
+      ],
+      "chart": {
+        "type": "hbar",
+        "mode": "grouped",
+        "axis_max": 40,
+        "category_heading": "Accountable party",
+        "series": [
+          {
+            "name": "2025",
+            "color": "#FFE600"
+          },
+          {
+            "name": "2023",
+            "color": "#C4C4CD"
+          }
+        ],
+        "categories": [
+          {
+            "label": "My company",
+            "values": [
+              33,
+              24
+            ]
+          },
+          {
+            "label": "Insurance carrier(s)",
+            "values": [
+              26,
+              26
+            ]
+          },
+          {
+            "label": "Broker/benefits advisor",
+            "values": [
+              23,
+              33
+            ]
+          },
+          {
+            "label": "Benefits technology platform",
+            "values": [
+              14,
+              12
+            ]
+          },
+          {
+            "label": "No preference",
+            "values": [
+              4,
+              6
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

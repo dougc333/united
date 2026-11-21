@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "document_id": "ey-limra-workforce-benefits-study-final-2025",
+  "page": 25,
+  "author": "claude-blind-test",
+  "figures": [
+    {
+      "id": "page-025-stats",
+      "label": null,
+      "title": "Based on a recent EY-Parthenon workforce benefits GenAI survey",
+      "question": "",
+      "box_pt": [
+        3.6,
+        165.3,
+        610.6,
+        366.0
+      ],
+      "chart": {
+        "type": "stats",
+        "kind": "percent",
+        "heading": "Based on a recent EY-Parthenon workforce benefits GenAI survey",
+        "items": [
+          {
+            "label": "of group benefits carriers surveyed stated they have dedicated and/or mobilized teams to focus on GenAI initiatives.",
+            "value": 92
+          },
+          {
+            "label": "of carriers expect AI/GenAI to drive 5%–10% revenue uplift.",
+            "value": 46
+          },
+          {
+            "label": "of group carriers are deliberately targeting distinct portions of the value chain to drive value.",
+            "value": 62
+          }
+        ]
+      },
+      "notes": [
+        "Source: EY-Parthenon 2024 Group Benefits GenAI Carrier Survey."
+      ]
+    },
+    {
+      "id": "page-025-harvey",
+      "label": null,
+      "title": "Majority of brokers believe AI will drive disruption, but in targeted areas",
+      "question": "",
+      "box_pt": [
+        3.6,
+        366.0,
+        610.6,
+        556.8
+      ],
+      "chart": {
+        "type": "harvey",
+        "color": "#FFE600",
+        "category_heading": "Area",
+        "estimate_method": "visual reading of circle fill in quarters",
+        "scale_labels": [
+          "None/less relevant",
+          "Highly relevant"
+        ],
+        "items": [
+          {
+            "label": "Sales and distribution",
+            "fill": 0.25
+          },
+          {
+            "label": "Underwriting",
+            "fill": 0.75
+          },
+          {
+            "label": "Implementation",
+            "fill": 0.25
+          },
+          {
+            "label": "Enrollment",
+            "fill": 1.0
+          },
+          {
+            "label": "Eligibility",
+            "fill": 0.25
+          },
+          {
+            "label": "Service",
+            "fill": 0.5
+          },
+          {
+            "label": "Billing and payments",
+            "fill": 0.25
+          },
+          {
+            "label": "Claims",
+            "fill": 0.75
+          }
+        ]
+      }
+    }
+  ]
+}

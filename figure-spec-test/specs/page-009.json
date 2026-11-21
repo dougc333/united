@@ -1,0 +1,230 @@
+{
+  "schema_version": 1,
+  "document_id": "ey-limra-workforce-benefits-study-final-2025",
+  "page": 9,
+  "author": "claude-blind-test",
+  "figures": [
+    {
+      "id": "page-009-region-60555241",
+      "label": "Figure 5",
+      "title": "Employees value a range of benefit offerings.",
+      "question": "Regardless of whether the benefit is currently available to you at work, how interested would you be in having your employer offer it in the future?",
+      "box_pt": [
+        1.61,
+        11.3,
+        591.67,
+        437.43
+      ],
+      "chart": {
+        "type": "hbar",
+        "mode": "single",
+        "axis_max": 100,
+        "category_heading": "Benefit",
+        "series": [
+          {
+            "name": "Percent of employees",
+            "color": "#C4C4CD",
+            "printed": false
+          }
+        ],
+        "categories": [
+          {
+            "label": "Medical insurance",
+            "values": [
+              78
+            ],
+            "color": "#2CB756"
+          },
+          {
+            "label": "Dental insurance",
+            "values": [
+              72
+            ],
+            "color": "#2CB756"
+          },
+          {
+            "label": "Vision insurance",
+            "values": [
+              62
+            ],
+            "color": "#2CB756"
+          },
+          {
+            "label": "Paid family or medical leave",
+            "values": [
+              54
+            ],
+            "color": "#2CB756"
+          },
+          {
+            "label": "Life insurance",
+            "values": [
+              50
+            ],
+            "color": "#C4C4CD"
+          },
+          {
+            "label": "Career development",
+            "values": [
+              39
+            ],
+            "color": "#C4C4CD"
+          },
+          {
+            "label": "Physical health wellness programs",
+            "values": [
+              36
+            ],
+            "color": "#C4C4CD"
+          },
+          {
+            "label": "Short-term disability insurance",
+            "values": [
+              36
+            ],
+            "color": "#C4C4CD"
+          },
+          {
+            "label": "Long-term disability insurance",
+            "values": [
+              35
+            ],
+            "color": "#C4C4CD"
+          },
+          {
+            "label": "Long-term care insurance",
+            "values": [
+              34
+            ],
+            "color": "#C4C4CD"
+          },
+          {
+            "label": "Accident insurance",
+            "values": [
+              34
+            ],
+            "color": "#C4C4CD"
+          },
+          {
+            "label": "Critical illness insurance",
+            "values": [
+              33
+            ],
+            "color": "#C4C4CD"
+          },
+          {
+            "label": "Emergency savings benefit",
+            "values": [
+              32
+            ],
+            "color": "#C4C4CD"
+          },
+          {
+            "label": "Identity theft protection",
+            "values": [
+              31
+            ],
+            "color": "#C4C4CD"
+          },
+          {
+            "label": "Mental health/substance abuse treatment benefits",
+            "values": [
+              30
+            ],
+            "color": "#C4C4CD"
+          },
+          {
+            "label": "Employee assistance programs",
+            "values": [
+              30
+            ],
+            "color": "#C4C4CD"
+          },
+          {
+            "label": "Financial wellness programs",
+            "values": [
+              29
+            ],
+            "color": "#FF4136"
+          },
+          {
+            "label": "Tuition assistance",
+            "values": [
+              28
+            ],
+            "color": "#C4C4CD"
+          },
+          {
+            "label": "Telemedicine benefits",
+            "values": [
+              28
+            ],
+            "color": "#C4C4CD"
+          },
+          {
+            "label": "Student loan assistance/repayment",
+            "values": [
+              26
+            ],
+            "color": "#C4C4CD"
+          },
+          {
+            "label": "Hospital indemnity insurance",
+            "values": [
+              26
+            ],
+            "color": "#C4C4CD"
+          },
+          {
+            "label": "Caregiving benefits",
+            "values": [
+              25
+            ],
+            "color": "#C4C4CD"
+          },
+          {
+            "label": "Legal services plan",
+            "values": [
+              23
+            ],
+            "color": "#C4C4CD"
+          },
+          {
+            "label": "Debt management counseling",
+            "values": [
+              21
+            ],
+            "color": "#C4C4CD"
+          },
+          {
+            "label": "Pet insurance",
+            "values": [
+              16
+            ],
+            "color": "#C4C4CD"
+          },
+          {
+            "label": "Societal benefits",
+            "values": [
+              12
+            ],
+            "color": "#FF4136"
+          }
+        ],
+        "legend": [
+          {
+            "name": "Up 5 percentage points or more vs. 2023 study",
+            "color": "#2CB756"
+          },
+          {
+            "name": "Down 5 percentage points or more vs. 2023 study",
+            "color": "#FF4136"
+          }
+        ]
+      },
+      "notes": [
+        "Note: Percent of employees who are “very” or “extremely” interested in having their employer offer the benefit in the future."
+      ]
+    }
+  ]
+}
