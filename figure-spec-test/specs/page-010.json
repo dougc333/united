@@ -1,0 +1,278 @@
+{
+  "schema_version": 1,
+  "document_id": "ey-limra-workforce-benefits-study-final-2025",
+  "page": 10,
+  "author": "claude-blind-test",
+  "figures": [
+    {
+      "id": "page-010-region-0d5bcac9",
+      "label": "Figure 6",
+      "title": "Employee interest in benefits varies across generations.",
+      "question": "Regardless of whether the benefit is currently available to you at work, how interested would you be in having your employer offer it in the future?",
+      "box_pt": [
+        0.74,
+        153.44,
+        606.61,
+        721.84
+      ],
+      "chart": {
+        "type": "heatmap",
+        "columns": [
+          "Gen Z",
+          "Millennials",
+          "Gen X",
+          "Baby boomers"
+        ],
+        "rows": [
+          {
+            "label": "Medical insurance",
+            "values": [
+              67,
+              75,
+              86,
+              80
+            ]
+          },
+          {
+            "label": "Dental insurance",
+            "values": [
+              61,
+              72,
+              76,
+              74
+            ]
+          },
+          {
+            "label": "Vision insurance",
+            "values": [
+              50,
+              61,
+              69,
+              63
+            ]
+          },
+          {
+            "label": "Paid family or medical leave",
+            "values": [
+              54,
+              57,
+              54,
+              43
+            ]
+          },
+          {
+            "label": "Life insurance",
+            "values": [
+              48,
+              52,
+              53,
+              40
+            ]
+          },
+          {
+            "label": "Career development",
+            "values": [
+              40,
+              46,
+              37,
+              25
+            ]
+          },
+          {
+            "label": "Physical health wellness programs",
+            "values": [
+              39,
+              39,
+              34,
+              32
+            ]
+          },
+          {
+            "label": "Short-term disability insurance",
+            "values": [
+              24,
+              35,
+              41,
+              37
+            ]
+          },
+          {
+            "label": "Long-term disability insurance",
+            "values": [
+              22,
+              35,
+              40,
+              41
+            ]
+          },
+          {
+            "label": "Long-term care insurance",
+            "values": [
+              30,
+              31,
+              36,
+              42
+            ]
+          },
+          {
+            "label": "Accident insurance",
+            "values": [
+              39,
+              34,
+              33,
+              32
+            ]
+          },
+          {
+            "label": "Critical illness insurance",
+            "values": [
+              29,
+              33,
+              34,
+              33
+            ]
+          },
+          {
+            "label": "Emergency savings benefit",
+            "values": [
+              41,
+              34,
+              30,
+              18
+            ]
+          },
+          {
+            "label": "Identity theft protection",
+            "values": [
+              37,
+              31,
+              27,
+              32
+            ]
+          },
+          {
+            "label": "Mental health or substance abuse treatment benefits",
+            "values": [
+              45,
+              33,
+              24,
+              19
+            ]
+          },
+          {
+            "label": "Employee assistance programs",
+            "values": [
+              28,
+              36,
+              28,
+              19
+            ]
+          },
+          {
+            "label": "Financial wellness programs",
+            "values": [
+              36,
+              33,
+              26,
+              17
+            ]
+          },
+          {
+            "label": "Telemedicine benefit",
+            "values": [
+              31,
+              29,
+              30,
+              20
+            ]
+          },
+          {
+            "label": "Tuition assistance",
+            "values": [
+              40,
+              32,
+              24,
+              11
+            ]
+          },
+          {
+            "label": "Student loan assistance/repayment",
+            "values": [
+              41,
+              32,
+              19,
+              7
+            ]
+          },
+          {
+            "label": "Hospital indemnity insurance",
+            "values": [
+              30,
+              24,
+              27,
+              24
+            ]
+          },
+          {
+            "label": "Caregiving benefits",
+            "values": [
+              30,
+              27,
+              20,
+              22
+            ]
+          },
+          {
+            "label": "Legal services plan",
+            "values": [
+              24,
+              26,
+              21,
+              19
+            ]
+          },
+          {
+            "label": "Debt management counseling",
+            "values": [
+              34,
+              24,
+              17,
+              9
+            ]
+          },
+          {
+            "label": "Pet insurance",
+            "values": [
+              23,
+              19,
+              12,
+              9
+            ]
+          },
+          {
+            "label": "Societal benefits",
+            "values": [
+              22,
+              15,
+              9,
+              4
+            ]
+          }
+        ],
+        "scale_labels": [
+          "Least interest",
+          "Most interest"
+        ]
+      },
+      "notes": [
+        "Note: Percent of employees who are “very” or “extremely” interested in having their employer offer the benefit in the future."
+      ],
+      "acknowledged_text_differences": [
+        {
+          "text": "Millennials",
+          "reason": "text layer splits the header into Millennial + s"
+        }
+      ]
+    }
+  ]
+}

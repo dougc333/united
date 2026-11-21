@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "document_id": "ey-limra-workforce-benefits-study-final-2025",
+  "page": 20,
+  "author": "claude-blind-test",
+  "figures": [
+    {
+      "id": "page-020-region-b6a9b5a9",
+      "label": null,
+      "title": "What matters to employers when selecting an outsourcing provider",
+      "question": "",
+      "box_pt": [
+        2.81,
+        32.66,
+        612.0,
+        322.3
+      ],
+      "chart": {
+        "type": "stats",
+        "kind": "percent",
+        "heading": "What matters to employers when selecting an outsourcing provider",
+        "items": [
+          {
+            "label": "Supports compliance and regulatory changes",
+            "value": 38
+          },
+          {
+            "label": "Integrates with current HR systems",
+            "value": 38
+          },
+          {
+            "label": "Issues payments directly to employees",
+            "value": 37
+          },
+          {
+            "label": "Offers employees multichannel communications",
+            "value": 35
+          },
+          {
+            "label": "Coordinates different leaves and benefits and tracks intermittent leaves",
+            "value": 35
+          },
+          {
+            "label": "Offers an integrated single portal",
+            "value": 31
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "document_id": "ey-limra-workforce-benefits-study-final-2025",
+  "page": 18,
+  "author": "claude-blind-test",
+  "figures": [
+    {
+      "id": "page-018-region-2baf6261",
+      "label": "Figure 11",
+      "title": "In choosing carriers, employers value integrated absence management experiences more than affordability.",
+      "question": "Imagine your company was selecting a carrier for a new disability insurance benefit. Which of the following would you choose?",
+      "box_pt": [
+        5.1,
+        441.3,
+        579.1,
+        752.0
+      ],
+      "chart": {
+        "type": "vbar",
+        "mode": "stacked_100",
+        "category_heading": "Company size",
+        "legend_reversed": false,
+        "series": [
+          {
+            "name": "A carrier that provides an integrated absence management program along with its disability product — for a higher price",
+            "color": "#747480"
+          },
+          {
+            "name": "A carrier with the best-value disability product even without an integrated, real-time absence management service",
+            "color": "#FFE600"
+          }
+        ],
+        "categories": [
+          {
+            "label": "Small (10–99 employees)",
+            "values": [
+              50,
+              50
+            ]
+          },
+          {
+            "label": "Midsize (100–999 employees)",
+            "values": [
+              71,
+              29
+            ]
+          },
+          {
+            "label": "Large (1,000 or more employees)",
+            "values": [
+              64,
+              36
+            ]
+          }
+        ]
+      },
+      "value_evidence": "raster_visual_read",
+      "raster_texts": [
+        "Small (10–99 employees)",
+        "Midsize (100–999 employees)",
+        "Large (1,000 or more employees)"
+      ]
+    }
+  ]
+}

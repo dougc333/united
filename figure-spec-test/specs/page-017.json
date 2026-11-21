@@ -1,0 +1,129 @@
+{
+  "schema_version": 1,
+  "document_id": "ey-limra-workforce-benefits-study-final-2025",
+  "page": 17,
+  "author": "claude-blind-test",
+  "figures": [
+    {
+      "id": "page-017-region-6d7362a9",
+      "label": "Figure 10",
+      "title": "The number and types of leave benefits are expanding.",
+      "question": "Does your company currently offer, or plan to offer, the following stand-alone types of leave?",
+      "box_pt": [
+        6.9,
+        269.46,
+        600.5,
+        585.59
+      ],
+      "chart": {
+        "type": "hbar",
+        "mode": "stacked_100",
+        "category_heading": "Leave type",
+        "series": [
+          {
+            "name": "Currently offer",
+            "color": "#747480"
+          },
+          {
+            "name": "Plan to add/considering",
+            "color": "#FFE600"
+          },
+          {
+            "name": "No plans to offer",
+            "color": "#C4C4CD"
+          }
+        ],
+        "categories": [
+          {
+            "label": "Paid caregiving leave (company-sponsored)",
+            "values": [
+              22,
+              56,
+              22
+            ]
+          },
+          {
+            "label": "Domestic violence/sexual abuse victims' leave",
+            "values": [
+              16,
+              55,
+              29
+            ]
+          },
+          {
+            "label": "Non-FMLA medical leave",
+            "values": [
+              20,
+              49,
+              31
+            ]
+          },
+          {
+            "label": "Divorce or family upheaval leave",
+            "values": [
+              11,
+              42,
+              47
+            ]
+          },
+          {
+            "label": "Sabbaticals",
+            "values": [
+              15,
+              41,
+              44
+            ]
+          },
+          {
+            "label": "Emergency responder leave",
+            "values": [
+              25,
+              40,
+              35
+            ]
+          },
+          {
+            "label": "Military service/family military leave",
+            "values": [
+              36,
+              39,
+              25
+            ]
+          },
+          {
+            "label": "Long-term disability",
+            "values": [
+              58,
+              35,
+              7
+            ]
+          },
+          {
+            "label": "Short-term disability",
+            "values": [
+              61,
+              33,
+              6
+            ]
+          },
+          {
+            "label": "Paid parental, maternity or paternity leave (company-sponsored)",
+            "values": [
+              57,
+              30,
+              13
+            ]
+          },
+          {
+            "label": "Paid family or medical leave (company-sponsored)",
+            "values": [
+              59,
+              28,
+              13
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

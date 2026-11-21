@@ -1,0 +1,131 @@
+--- page-004.json: 0 content differences (5 id/box-only)
+--- page-005.json: 9 content differences (10 id/box-only)
+    figures[0].chart.category_heading: mine='Year' existing='Survey year'
+    figures[1].chart.annotations[0].meaning: only in existing = employers using any contract/freelance workers
+    figures[1].chart.annotations[1].meaning: only in existing = employers using any contract/freelance workers
+    figures[1].chart.category_heading: mine='Time frame' existing='Timeframe'
+    figures[1].chart.series[0].color: mine='#34C668' existing='#34C768'
+    figures[1].chart.series[1].color: mine='#42C8C2' existing='#42C9C2'
+    figures[1].chart.series[2].color: mine='#35A3E8' existing='#35A4E8'
+    figures[1].chart.series[3].color: mine='#F85D53' existing='#F95D54'
+    figures[1].chart.series[4].color: mine='#FF8109' existing='#FF810A'
+--- page-007.json: 5 content differences (5 id/box-only)
+    figures[0].chart.heading: only in mine = Share of the U.S. labor force, by generation
+    figures[0].chart.kind: mine='percent' existing='infographic'
+    figures[0].description: only in mine = As of 2024, Gen Z workers outnumber baby boomers, with millennials representing the larges
+    figures[0].label: only in mine = None
+    figures[0].question: only in mine = 
+--- page-008.json: 18 content differences (5 id/box-only)
+    figures[0].chart.categories[0].color: mine='#2CB756' existing='#2DB757'
+    figures[0].chart.categories[1].color: mine='#2CB756' existing='#2DB757'
+    figures[0].chart.categories[2].color: mine='#2CB756' existing='#2DB757'
+    figures[0].chart.categories[3].color: only in mine = #C4C4CD
+    figures[0].chart.categories[4].color: only in mine = #C4C4CD
+    figures[0].chart.categories[5].color: only in mine = #C4C4CD
+    figures[0].chart.categories[6].color: mine='#2CB756' existing='#2DB757'
+    figures[0].chart.categories[7].color: only in mine = #C4C4CD
+    figures[0].chart.categories[8].color: only in mine = #C4C4CD
+    figures[0].chart.categories[9].color: only in mine = #C4C4CD
+    figures[0].chart.categories[10].color: only in mine = #C4C4CD
+    figures[0].chart.categories[11].color: only in mine = #C4C4CD
+    figures[0].chart.categories[13].color: only in mine = #C4C4CD
+    figures[0].chart.categories[14].color: only in mine = #C4C4CD
+    ... 4 more
+--- page-009.json: 26 content differences (5 id/box-only)
+    figures[0].chart.categories[0].color: mine='#2CB756' existing='#2DB757'
+    figures[0].chart.categories[1].color: mine='#2CB756' existing='#2DB757'
+    figures[0].chart.categories[2].color: mine='#2CB756' existing='#2DB757'
+    figures[0].chart.categories[3].color: mine='#2CB756' existing='#2DB757'
+    figures[0].chart.categories[4].color: only in mine = #C4C4CD
+    figures[0].chart.categories[5].color: only in mine = #C4C4CD
+    figures[0].chart.categories[6].color: only in mine = #C4C4CD
+    figures[0].chart.categories[7].color: only in mine = #C4C4CD
+    figures[0].chart.categories[8].color: only in mine = #C4C4CD
+    figures[0].chart.categories[9].color: only in mine = #C4C4CD
+    figures[0].chart.categories[10].color: only in mine = #C4C4CD
+    figures[0].chart.categories[11].color: only in mine = #C4C4CD
+    figures[0].chart.categories[12].color: only in mine = #C4C4CD
+    figures[0].chart.categories[13].color: only in mine = #C4C4CD
+    ... 12 more
+--- page-010.json: 4 content differences (5 id/box-only)
+    figures[0].acknowledged_text_differences: length mine 1 vs existing 2
+    figures[0].acknowledged_text_differences[0].reason: mine='text layer splits the header into Millennial + s' existing="PDF text layer splits the header into 'Millennial' and a separately placed 's'."
+    figures[0].chart.kind: only in existing = table
+    figures[0].chart.rows[17].label: mine='Telemedicine benefit' existing='Telemedicine benefits'
+--- page-011.json: 4 content differences (5 id/box-only)
+    figures[0].chart.color: only in mine = #FFE600
+    figures[0].chart.kind: only in existing = diagram
+    figures[0].label: only in mine = None
+    figures[0].question: only in mine = 
+--- page-013.json: 4 content differences (5 id/box-only)
+    figures[0].chart.kind: mine='percent' existing='infographic'
+    figures[0].label: mine='None' existing='Figure 7'
+    figures[0].question: mine='' existing='What are the top three most important types of data considered when making decis'
+    figures[0].title: mine='Percent of employers and the data they seek' existing='Employers are seeking a wide array of data as input into their decision-making.'
+--- page-014.json: 2 content differences (9 id/box-only)
+    figures[0].chart.axis_max: mine='50' existing='55'
+    figures[0].chart.series[0].name: mine='Percent of employers' existing='Employers'
+--- page-016.json: 4 content differences (5 id/box-only)
+    figures[0].chart.heading: only in mine = Both employees and employers indicate strong interest in paid family or medical leave.
+    figures[0].chart.kind: mine='percent' existing='infographic'
+    figures[0].label: only in mine = None
+    figures[0].question: only in mine = 
+--- page-017.json: 0 content differences (5 id/box-only)
+--- page-018.json: 1 content differences (5 id/box-only)
+    figures[0].chart.legend_reversed: only in mine = False
+--- page-019.json: 3 content differences (5 id/box-only)
+    figures[0].chart.series[0].color: mine='#747480' existing='#74747F'
+    figures[0].chart.series[1].color: mine='#FFE600' existing='#FBE74D'
+    figures[0].chart.series[2].color: mine='#C4C4CD' existing='#C3C4CC'
+--- page-020.json: 4 content differences (5 id/box-only)
+    figures[0].chart.heading: only in mine = What matters to employers when selecting an outsourcing provider
+    figures[0].chart.kind: mine='percent' existing='infographic'
+    figures[0].label: only in mine = None
+    figures[0].question: only in mine = 
+--- page-021.json: 4 content differences (10 id/box-only)
+    figures[0].group: mine='digital' existing='fig13-14'
+    figures[1].group: mine='digital' existing='fig13-14'
+    groups.digital: only in mine = {'label': 'Figures 13 and 14', 'title': 'Digital experiences are important, and most stake
+    groups.fig13-14: only in existing = {'label': 'Figures 13 and 14', 'title': 'Digital experiences are important, and most stake
+--- page-022.json: 1 content differences (10 id/box-only)
+    figures[0].chart.category_heading: mine='Digital/online capability' existing='Capability'
+--- page-023.json: 8 content differences (5 id/box-only)
+    figures[0].chart.panels[0].values[0]: mine='34' existing='66'
+    figures[0].chart.panels[0].values[1]: mine='66' existing='34'
+    figures[0].chart.panels[1].values[0]: mine='26' existing='74'
+    figures[0].chart.panels[1].values[1]: mine='74' existing='26'
+    figures[0].chart.series[0].color: mine='#FFE600' existing='#747480'
+    figures[0].chart.series[0].name: mine='A carrier with the best-value product, even if it does not work well with your b' existing='A carrier that works well with your benefit technology platform, even if its pro'
+    figures[0].chart.series[1].color: mine='#747480' existing='#FFE600'
+    figures[0].chart.series[1].name: mine='A carrier that works well with your benefit technology platform, even if its pro' existing='A carrier with the best-value product, even if it does not work well with your b'
+--- page-024.json: 3 content differences (5 id/box-only)
+    figures[0].chart.series[2].color: mine='#FF8109' existing='#FF810A'
+    figures[0].chart.series[3].color: mine='#42C8C2' existing='#42C9C2'
+    figures[0].chart.series[4].color: mine='#92EFE6' existing='#93F0E6'
+--- page-025.json: 34 content differences (10 id/box-only)
+    figures: length mine 2 vs existing 3
+    figures[0].chart.heading: only in mine = Based on a recent EY-Parthenon workforce benefits GenAI survey
+    figures[0].chart.items[0].label: mine='of group benefits carriers surveyed stated they have dedicated and/or mobilized ' existing='Predicting the outcomes will be more precise for the carriers.'
+    figures[0].chart.items[0].value: only in mine = 92
+    figures[0].chart.items[1].label: mine='of carriers expect AI/GenAI to drive 5%–10% revenue uplift.' existing='Understanding the targeted consumer or employee will be a lot easier and quicker'
+    figures[0].chart.items[1].value: only in mine = 46
+    figures[0].chart.items[2].label: mine='of group carriers are deliberately targeting distinct portions of the value chai' existing='AI should serve the people who serve employees, not necessarily be employee faci'
+    figures[0].chart.items[2].value: only in mine = 62
+    figures[0].chart.kind: mine='percent' existing='quotes'
+    figures[0].chart.type: mine='stats' existing='quotes'
+    figures[0].label: only in mine = None
+    figures[0].notes: only in mine = ['Source: EY-Parthenon 2024 Group Benefits GenAI Carrier Survey.']
+    figures[0].question: only in mine = 
+    figures[0].title: mine='Based on a recent EY-Parthenon workforce benefits GenAI survey' existing='Brokers on the possibilities of AI'
+    ... 20 more
+--- page-026.json: 10 content differences (5 id/box-only)
+    figures[0].acknowledged_text_differences: only in mine = [{'text': 'AI-enabled digital agents that provide instant simple answers to complex questi
+    figures[0].chart.items[0].number: mine='01' existing='1'
+    figures[0].chart.items[1].number: mine='02' existing='2'
+    figures[0].chart.items[2].number: mine='03' existing='3'
+    figures[0].chart.items[3].number: mine='04' existing='4'
+    figures[0].chart.items[4].bullets[0]: mine='AI-enabled digital agents that provide instant simple answers to complex questio' existing='Al-enabled digital agents that provide instant simple answers to complex questio'
+    figures[0].chart.items[4].number: mine='05' existing='5'
+    figures[0].chart.kind: only in existing = infographic
+    figures[0].label: only in mine = None
+    figures[0].question: only in mine = 

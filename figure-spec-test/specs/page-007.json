@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "document_id": "ey-limra-workforce-benefits-study-final-2025",
+  "page": 7,
+  "author": "claude-blind-test",
+  "figures": [
+    {
+      "id": "page-007-region-437b2e1e",
+      "label": null,
+      "title": "Share of the U.S. labor force, by generation",
+      "question": "",
+      "box_pt": [
+        3.56,
+        277.19,
+        612.0,
+        624.17
+      ],
+      "chart": {
+        "type": "stats",
+        "kind": "percent",
+        "heading": "Share of the U.S. labor force, by generation",
+        "items": [
+          {
+            "label": "Millennials",
+            "value": 36
+          },
+          {
+            "label": "Gen X",
+            "value": 31
+          },
+          {
+            "label": "Gen Z",
+            "value": 18
+          },
+          {
+            "label": "Baby boomers",
+            "value": 15
+          },
+          {
+            "label": "Silent Generation",
+            "value": 1
+          }
+        ]
+      },
+      "description": "As of 2024, Gen Z workers outnumber baby boomers, with millennials representing the largest generational cohort in the workforce. By 2030, Gen Z workers will account for more than 30% of the workforce, according to the U.S. Bureau of Labor Statistics.",
+      "notes": [
+        "Source: “Changes in the U.S. Labor Supply,” Trendlines, U.S. Department of Labor, Employment and Training Administration, August 2024."
+      ]
+    }
+  ]
+}

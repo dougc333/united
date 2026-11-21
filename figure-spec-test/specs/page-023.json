@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "document_id": "ey-limra-workforce-benefits-study-final-2025",
+  "page": 23,
+  "author": "claude-blind-test",
+  "figures": [
+    {
+      "id": "page-023-region-49d286d7",
+      "label": "Figure 17",
+      "title": "Employers prefer carriers that effectively integrate over low-cost products.",
+      "question": "Which would you prefer?",
+      "box_pt": [
+        16.44,
+        122.66,
+        598.72,
+        433.82
+      ],
+      "chart": {
+        "type": "pie",
+        "series": [
+          {
+            "name": "A carrier with the best-value product, even if it does not work well with your benefit technology platform",
+            "color": "#FFE600"
+          },
+          {
+            "name": "A carrier that works well with your benefit technology platform, even if its product is a little more expensive",
+            "color": "#747480"
+          }
+        ],
+        "panels": [
+          {
+            "label": "2021",
+            "values": [
+              34,
+              66
+            ]
+          },
+          {
+            "label": "2025",
+            "values": [
+              26,
+              74
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

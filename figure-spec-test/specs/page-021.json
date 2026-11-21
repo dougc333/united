@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "document_id": "ey-limra-workforce-benefits-study-final-2025",
+  "page": 21,
+  "author": "claude-blind-test",
+  "figures": [
+    {
+      "id": "page-021-fig13",
+      "label": "Figure 13",
+      "title": "Digital experiences are important, and most stakeholders are delivering a quality experience.",
+      "question": "How does the digital experience with administering your company’s insurance benefits compare to your experience with other companies?",
+      "box_pt": [
+        4.2,
+        486.0,
+        304.5,
+        748.5
+      ],
+      "chart": {
+        "type": "pie",
+        "series": [
+          {
+            "name": "Worse",
+            "color": "#C4C4CD"
+          },
+          {
+            "name": "About the same",
+            "color": "#FFE600"
+          },
+          {
+            "name": "Better",
+            "color": "#747480"
+          }
+        ],
+        "panels": [
+          {
+            "values": [
+              6,
+              28,
+              66
+            ]
+          }
+        ]
+      },
+      "group": "digital"
+    },
+    {
+      "id": "page-021-fig14",
+      "label": "Figure 14",
+      "title": "Digital experiences are important, and most stakeholders are delivering a quality experience.",
+      "question": "How important is it for the digital experience you have with administering your company’s insurance benefits to match your experience with other companies?",
+      "box_pt": [
+        304.5,
+        486.0,
+        604.8,
+        748.5
+      ],
+      "chart": {
+        "type": "pie",
+        "series": [
+          {
+            "name": "Not at all/not very important",
+            "color": "#C4C4CD"
+          },
+          {
+            "name": "Slightly/somewhat/moderately important",
+            "color": "#FFE600"
+          },
+          {
+            "name": "Very/extremely important",
+            "color": "#747480"
+          }
+        ],
+        "panels": [
+          {
+            "values": [
+              3,
+              39,
+              58
+            ]
+          }
+        ]
+      },
+      "group": "digital"
+    }
+  ],
+  "groups": {
+    "digital": {
+      "label": "Figures 13 and 14",
+      "title": "Digital experiences are important, and most stakeholders are delivering a quality experience.",
+      "box_pt": [
+        4.2,
+        443.7,
+        604.8,
+        486.0
+      ]
+    }
+  }
+}

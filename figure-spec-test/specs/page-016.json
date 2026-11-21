@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "document_id": "ey-limra-workforce-benefits-study-final-2025",
+  "page": 16,
+  "author": "claude-blind-test",
+  "figures": [
+    {
+      "id": "page-016-region-0206ea67",
+      "label": null,
+      "title": "Both employees and employers indicate strong interest in paid family or medical leave.",
+      "question": "",
+      "box_pt": [
+        2.42,
+        532.36,
+        595.45,
+        729.34
+      ],
+      "chart": {
+        "type": "stats",
+        "kind": "percent",
+        "heading": "Both employees and employers indicate strong interest in paid family or medical leave.",
+        "items": [
+          {
+            "label": "of employees would be interested in paid family or medical leave.",
+            "value": 92
+          },
+          {
+            "label": "of small employers (10–99 employees) are considering offering absence management.",
+            "value": 38
+          },
+          {
+            "label": "of employers are considering offering company-sponsored paid family/medical leave.",
+            "value": 46
+          }
+        ]
+      }
+    }
+  ]
+}

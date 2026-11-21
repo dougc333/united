@@ -1,0 +1,132 @@
+{
+  "schema_version": 1,
+  "document_id": "ey-limra-workforce-benefits-study-final-2025",
+  "page": 5,
+  "author": "claude-blind-test",
+  "figures": [
+    {
+      "id": "page-005-region-4c8ed247",
+      "label": "Figure 2",
+      "title": "Worker participation in the gig economy is trending downward.",
+      "question": "Instead of (or in addition to) working for a traditional employer (also known as being a W-2 employee), some workers pursue freelance or “gig” work. Which of the following best describes your current work arrangement?",
+      "box_pt": [
+        19.71,
+        401.58,
+        304.85,
+        712.62
+      ],
+      "chart": {
+        "type": "vbar",
+        "mode": "stacked_100",
+        "category_heading": "Year",
+        "series": [
+          {
+            "name": "Freelance (full or part time)",
+            "color": "#FFE600"
+          },
+          {
+            "name": "Do not freelance or have a gig job(s)",
+            "color": "#747480"
+          }
+        ],
+        "categories": [
+          {
+            "label": "2023",
+            "values": [
+              34,
+              66
+            ]
+          },
+          {
+            "label": "2025",
+            "values": [
+              23,
+              77
+            ]
+          }
+        ],
+        "legend_reversed": true
+      }
+    },
+    {
+      "id": "page-005-region-5b62c880",
+      "label": "Figure 3",
+      "title": "Employers expect to use more freelance workers in the future.",
+      "question": "Approximately what percent of your company’s workers are currently contract/freelance workers? In five years, what percent of your company’s workers will be contract/freelance workers?",
+      "box_pt": [
+        309.37,
+        407.49,
+        584.33,
+        729.22
+      ],
+      "chart": {
+        "type": "vbar",
+        "mode": "stacked_100",
+        "category_heading": "Time frame",
+        "legend_reversed": true,
+        "series": [
+          {
+            "name": "None",
+            "color": "#34C668"
+          },
+          {
+            "name": "Less than 10%",
+            "color": "#42C8C2"
+          },
+          {
+            "name": "10% to 24%",
+            "color": "#35A3E8"
+          },
+          {
+            "name": "25% to 49%",
+            "color": "#F85D53"
+          },
+          {
+            "name": "50% or more",
+            "color": "#FF8109"
+          }
+        ],
+        "categories": [
+          {
+            "label": "Today",
+            "values": [
+              35,
+              37,
+              16,
+              8,
+              4
+            ]
+          },
+          {
+            "label": "In five years",
+            "values": [
+              23,
+              39,
+              23,
+              11,
+              6
+            ]
+          }
+        ],
+        "annotations": [
+          {
+            "type": "bracket",
+            "category": "Today",
+            "from": "Less than 10%",
+            "to": "50% or more",
+            "text": "65%",
+            "side": "left"
+          },
+          {
+            "type": "bracket",
+            "category": "In five years",
+            "from": "Less than 10%",
+            "to": "50% or more",
+            "text": "77%",
+            "side": "right"
+          }
+        ]
+      }
+    }
+  ]
+}

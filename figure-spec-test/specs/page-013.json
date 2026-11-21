@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "document_id": "ey-limra-workforce-benefits-study-final-2025",
+  "page": 13,
+  "author": "claude-blind-test",
+  "figures": [
+    {
+      "id": "page-013-region-52b68988",
+      "label": null,
+      "title": "Percent of employers and the data they seek",
+      "question": "",
+      "box_pt": [
+        8.56,
+        410.57,
+        597.84,
+        701.42
+      ],
+      "chart": {
+        "type": "stats",
+        "kind": "percent",
+        "heading": "Percent of employers and the data they seek",
+        "items": [
+          {
+            "label": "Information on what employees want",
+            "value": 71
+          },
+          {
+            "label": "Cost trends",
+            "value": 61
+          },
+          {
+            "label": "Participation rates",
+            "value": 59
+          },
+          {
+            "label": "Utilization rates",
+            "value": 43
+          },
+          {
+            "label": "Employee demographics",
+            "value": 36
+          },
+          {
+            "label": "What similar companies offer",
+            "value": 30
+          }
+        ]
+      },
+      "notes": [
+        "Represents the percent of employers ranking items among their top three most important types of data considered when making decisions about the design of benefits programs."
+      ]
+    }
+  ]
+}

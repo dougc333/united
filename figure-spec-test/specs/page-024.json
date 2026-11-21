@@ -1,0 +1,367 @@
+{
+  "schema_version": 1,
+  "document_id": "ey-limra-workforce-benefits-study-final-2025",
+  "page": 24,
+  "author": "claude-blind-test",
+  "figures": [
+    {
+      "id": "page-024-region-2d5a8763",
+      "label": "Figure 18",
+      "title": "Digital misalignment is most prevalent in claims, quote and implementation processes.",
+      "question": "Indicate whether the benefit technology tool is available to you and whether you currently use it or would use it if it were available.",
+      "box_pt": [
+        9.16,
+        13.94,
+        601.84,
+        653.53
+      ],
+      "chart": {
+        "type": "hbar",
+        "mode": "stacked_100",
+        "category_heading": "Technology tool",
+        "estimate_method": "vector geometry: segment rectangle width / full bar width in the PDF drawing, rounded",
+        "series": [
+          {
+            "name": "Already have and use",
+            "color": "#004F4F"
+          },
+          {
+            "name": "Already have but do not use",
+            "color": "#109090"
+          },
+          {
+            "name": "Do not have but want",
+            "color": "#FF8109"
+          },
+          {
+            "name": "Do not have and do not want",
+            "color": "#42C8C2"
+          },
+          {
+            "name": "Don't know",
+            "color": "#92EFE6"
+          }
+        ],
+        "categories": [
+          {
+            "label": "Self-service/real-time quoting",
+            "group": "Quote and implementation",
+            "values": [
+              48,
+              7,
+              35,
+              {
+                "value": 5,
+                "printed": false
+              },
+              {
+                "value": 5,
+                "printed": false
+              }
+            ]
+          },
+          {
+            "label": "Automated data exchange",
+            "group": "Quote and implementation",
+            "values": [
+              57,
+              8,
+              24,
+              {
+                "value": 4,
+                "printed": false
+              },
+              {
+                "value": 7,
+                "printed": false
+              }
+            ]
+          },
+          {
+            "label": "Digital implementation of a new carrier or benefit",
+            "group": "Quote and implementation",
+            "values": [
+              63,
+              9,
+              23,
+              {
+                "value": 2,
+                "printed": false
+              },
+              {
+                "value": 2,
+                "printed": false
+              }
+            ]
+          },
+          {
+            "label": "Digital submission for evidence of insurability",
+            "group": "Quote and implementation",
+            "values": [
+              65,
+              9,
+              20,
+              {
+                "value": 3,
+                "printed": false
+              },
+              {
+                "value": 3,
+                "printed": false
+              }
+            ]
+          },
+          {
+            "label": "Decision support tools for employees",
+            "group": "Enrollment",
+            "values": [
+              66,
+              9,
+              21,
+              {
+                "value": 1,
+                "printed": false
+              },
+              {
+                "value": 3,
+                "printed": false
+              }
+            ]
+          },
+          {
+            "label": "Personalized enrollment materials",
+            "group": "Enrollment",
+            "values": [
+              74,
+              7,
+              16,
+              {
+                "value": 2,
+                "printed": false
+              },
+              {
+                "value": 1,
+                "printed": false
+              }
+            ]
+          },
+          {
+            "label": "Digital employee communications on new benefits offerings",
+            "group": "Enrollment",
+            "values": [
+              76,
+              8,
+              13,
+              {
+                "value": 2,
+                "printed": false
+              },
+              {
+                "value": 2,
+                "printed": false
+              }
+            ]
+          },
+          {
+            "label": "E-signature capabilities",
+            "group": "Enrollment",
+            "values": [
+              84,
+              5,
+              9,
+              null,
+              {
+                "value": 2,
+                "printed": false
+              }
+            ]
+          },
+          {
+            "label": "Online enrollment",
+            "group": "Enrollment",
+            "values": [
+              86,
+              7,
+              4,
+              {
+                "value": 1,
+                "printed": false
+              },
+              {
+                "value": 1,
+                "printed": false
+              }
+            ]
+          },
+          {
+            "label": "Live chat/chatbot",
+            "group": "Ongoing service",
+            "values": [
+              54,
+              12,
+              23,
+              {
+                "value": 10,
+                "printed": false
+              },
+              {
+                "value": 1,
+                "printed": false
+              }
+            ]
+          },
+          {
+            "label": "Mobile app (for employer or employees)",
+            "group": "Ongoing service",
+            "values": [
+              68,
+              6,
+              20,
+              {
+                "value": 4,
+                "printed": false
+              },
+              {
+                "value": 2,
+                "printed": false
+              }
+            ]
+          },
+          {
+            "label": "Online eligibility updates",
+            "group": "Ongoing service",
+            "values": [
+              79,
+              5,
+              13,
+              {
+                "value": 1,
+                "printed": false
+              },
+              {
+                "value": 2,
+                "printed": false
+              }
+            ]
+          },
+          {
+            "label": "Online billing and payment",
+            "group": "Ongoing service",
+            "values": [
+              89,
+              5,
+              4,
+              null,
+              {
+                "value": 1,
+                "printed": false
+              }
+            ]
+          },
+          {
+            "label": "Same-day claims decisions",
+            "group": "Claims",
+            "values": [
+              32,
+              6,
+              52,
+              {
+                "value": 3,
+                "printed": false
+              },
+              {
+                "value": 6,
+                "printed": false
+              }
+            ]
+          },
+          {
+            "label": "Proactively trigger claims based on medical data",
+            "group": "Claims",
+            "values": [
+              42,
+              7,
+              41,
+              {
+                "value": 4,
+                "printed": false
+              },
+              {
+                "value": 6,
+                "printed": false
+              }
+            ]
+          },
+          {
+            "label": "Real-time integration for claims management with HRIS systems",
+            "group": "Claims",
+            "values": [
+              51,
+              8,
+              31,
+              {
+                "value": 5,
+                "printed": false
+              },
+              {
+                "value": 5,
+                "printed": false
+              }
+            ]
+          },
+          {
+            "label": "Integrated claims experience based on singular event",
+            "group": "Claims",
+            "values": [
+              58,
+              8,
+              28,
+              {
+                "value": 2,
+                "printed": false
+              },
+              {
+                "value": 4,
+                "printed": false
+              }
+            ]
+          },
+          {
+            "label": "Text messaging to employees regarding claims status",
+            "group": "Claims",
+            "values": [
+              55,
+              7,
+              26,
+              {
+                "value": 8,
+                "printed": false
+              },
+              {
+                "value": 3,
+                "printed": false
+              }
+            ]
+          },
+          {
+            "label": "Digital claims submission",
+            "group": "Claims",
+            "values": [
+              78,
+              6,
+              12,
+              {
+                "value": 2,
+                "printed": false
+              },
+              {
+                "value": 1,
+                "printed": false
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
