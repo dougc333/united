@@ -1,0 +1,44 @@
+{
+  "generated_at": "2026-11-12T19:25:46.652251+00:00",
+  "source_inventory": "/Users/dc/united/pdf_inventory.json",
+  "source_manifest": "/Users/dc/united/manifest.json",
+  "crawl": {
+    "root_url": "https://www.uhc.com/",
+    "generated_at": "2026-09-21T00:20:33Z",
+    "pages_crawled": 9169,
+    "manifest_pdf_records": 7118,
+    "crawl_errors": 916
+  },
+  "local_corpus": {
+    "existing_pdfs": 4429,
+    "total_pages": 514285,
+    "total_size_bytes": 9971596938,
+    "categories": {
+      "extraction_error": 12,
+      "figures_no_tables": 2580,
+      "ocr_or_no_text": 29,
+      "partial_text": 245,
+      "tables_and_figures": 392,
+      "tables_no_figures": 192,
+      "text_only": 979
+    },
+    "risk_counts": {
+      "error": 12,
+      "high": 274,
+      "low": 4053,
+      "medium": 90
+    },
+    "with_any_image": 3169,
+    "with_estimated_table": 619,
+    "no_text": 29,
+    "not_text_on_every_page": 274
+  },
+  "stale_inventory_paths": [
+    "/Users/dc/united/pdfs/www.ey.com/content/dam/ey-unified-site/ey-com/en-us/insights/insurance/documents/ey-limra-workforce-benefits-study-final-2025.pdf"
+  ],
+  "notes": [
+    "Image counts are embedded-image heuristics and can include logos, masks, or page fragments; they are not ground-truth figure counts.",
+    "Table counts are layout heuristics from the existing inventory, not Docling-verified table ground truth.",
+    "The Docling profiler in crawl/profile_data currently contains only one completed PDF."
+  ]
+}
